@@ -1,0 +1,51 @@
+body{
+	background: #dfdfdf1f;
+	font-family: "Caveat";
+}
+.row{
+	background: #dfdfdf80;
+	margin: 10% 30% 0 30%;
+	padding: 7pt 10pt 10pt 10pt; 
+	position: relative;
+}
+.head1{
+	font-size: 4em;
+	font-family: "Amatic SC";
+	margin: -10pt 0 40pt 0;
+}
+.inp{
+	text-decoration: none;
+ 	/*font-family: chiller;*/
+	font-size: 20pt;
+	margin: 0 0 10pt 0; 
+	border-style: none ;
+	/*background: transparent;*/
+	color: grey;
+}
+input::placeholder{
+	/*font-size: 20pt;*/
+	/*padding: 0 0 0 10px;*/
+	font-family: "Caveat";
+}
+input[type=text],
+input[type=password]{
+	font-size: 17pt;
+	padding: 0 0 0 10px;
+	font-family: "Caveat";
+	width: 70%;
+}
+.inp:hover{
+	border-style: none;
+}
+.title{
+	font-size: 15pt;
+	margin: 0 50% 0 0;
+}
+.butt{
+	position:/* absolute;
+	right: 0;*/
+	margin: ;
+}
+h4{
+	margin: -1pt 0 0 0;
+}

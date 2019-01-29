@@ -1,0 +1,1 @@
+select categories.personId as id, categories.name as name, GROUP_CONCAT(hobbies.hobby) as hobbies from hobbies inner join categories on hobbies.personId = categories.personId GROUP BY categories.personId
